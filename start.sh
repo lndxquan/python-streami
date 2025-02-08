@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # //隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-export TOK=${TOK:-''}  # 隧道token或json
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''} # 隧道域名
+export TOK=${TOK:-'eyJhIjoiODE2NTM0MWJmMDYwMjBiOTQxN2UwNDk3NWRmZWM1ODAiLCJ0IjoiZDk1ZWY4YWUtNzFiMS00ZmVmLWI1NzEtYTZhZTZlYmJmZWMzIiwicyI6IlpUUmpNVEkzWmpZdFpERXhNeTAwWVRjNUxUbGhPVEF0TVRrNVpUSm1Oek5pWmpZMCJ9'}  # 隧道token或json
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'streamit.xfoxok.ggff.net'} # 隧道域名
 
 # //哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
